@@ -1,0 +1,186 @@
+/* .app {
+    max-width: 600px;
+    margin: 200 auto;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-left: 330px;
+  } */
+  
+body{
+  background-image: url("https://images.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTV8fGJhY2tncm91bmQlMjBpbWFnZXxlbnwwfHx8fDE2OTM2OTQwMDZ8MA&ixlib=rb-4.0.3");
+}
+
+  .task-form{
+    border: 1px solid white;
+    height: 380px;
+    border-radius: 10px;
+    margin-left: -50px;
+    width: 616px;
+  }
+  
+  .input{
+    margin-top: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .task-list {
+    margin-top: 20px;
+  }
+  
+  .task {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  width: 520px;
+  }
+  
+  .completed {
+    background-color: white;
+  }
+  
+  .task-details {
+    flex: 1;
+    color: wheat;
+  }
+  
+  .task-actions button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+  }
+  
+  .task-form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-left: 165px;
+    height: 50px;
+    width: 100px;
+    border-radius: 8px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: large;
+  }
+  
+  .task-form button:hover {
+    background-color: lightblue;
+  }
+  
+  
+  .Toastify_toast.Toastify_toast--warning {
+    font-size: 16px;
+    height: 50px;
+    width: 268px;
+    z-index: 9999;
+  }
+  
+  .h1{
+    font-family:'Times New Roman', Times, serif ;
+    font-variant: small-caps;
+    font-size:2em;
+    background-color: lightgray;
+    padding: 2% 10px;
+    border-radius: 15px 1px 15px 1px;
+    width: 415px;
+    margin-left: 30px;
+    margin-top: 80px;
+  }
+  
+  .input {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 0.9rem !important;
+    height: 30px;
+    width: 400px; 
+    border-radius: 10px;
+    padding: 10px; 
+    margin-bottom: 10px;
+    margin-left: 80px;
+  }
+  
+  .textarea{
+    font-family:"Times New Roman";
+    height: 150px;
+    width: 480px;
+    border-radius: 5px;
+    font-size: medium;
+    margin-left: 50px;
+    padding: 1rem;
+  }
+  
+  .date{
+    height: 50px;
+    width: auto;
+    border-radius: 8px;
+    margin-left: 70px;
+    margin-top: 20px;
+  }
+  
+  .time{
+    height: 50px;
+    width:auto;
+    border-radius: 8px;
+    margin-left: 10px;
+  }
+  
+  
+  
+  
+  /* Add hover styles for the buttons */
+  .task-actions button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Add a smooth transition for hover effect */
+  
+    /* Additional styles for the buttons */
+    &.complete-button {
+     background-color: #28a745; /* Green color for Complete button */
+    }
+  
+    &.delete-button {
+     background-color: #dc3545; /* Red color for Delete button */
+    }
+  
+    &.edit-button {
+      color: #007bff; 
+    }
+  
+    &:hover {
+      background-color: #f1f1f1; 
+    }
+  }
+  
+  
+  /* .btnbackground{
+    border-style: solid;
+    border-width: medium;
+    border-color:#ffffff ;
+    border-radius :15%;
+    padding: 10px  1.2rem;
+  
+  } */
+  
+  .complete{
+    font-size: 20px;
+    background-color: #f1f1f1;
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+  }
+  
